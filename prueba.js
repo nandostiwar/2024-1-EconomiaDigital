@@ -1,3 +1,5 @@
-camilo = 17
-nando = 56
-andrea = 89
+let camilo = 17
+let nando = 56
+let andrea = 89
+
+console.log(`Sumatoria: ${camilo + nando + andrea}`)
