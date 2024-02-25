@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px;
+    width: 500px;
+    display: block;
+}
+
+.number{
+    margin: 20px;
+    height: 20px;
+    border-radius: 20px;
+    height: 35px;
+    text-align: center;
+}
+
+.btnEnviar{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(121, 89, 89);
+    color: white;
+    border-color: rgb(121, 89, 89);
+    margin-left: 10px;
+}
+
+#txtCalculadora{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
