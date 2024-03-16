@@ -1,0 +1,62 @@
+{
+  "ordenes": [
+    {
+      "idOrden": "12345",
+      "fecha": "2024-03-16T12:34:56",
+      "mesa": 5,
+      "mesero": {
+        "id": 2,
+        "nombre": "Ana Lopez"
+      },
+      "items": [
+        {
+          "idProducto": 36,
+          "nombre": "Pizza Margherita",
+          "cantidad": 2,
+          "precioUnitario": 40500,
+          "notas": "Sin cebolla en la pizza"
+        },
+        {
+          "idProducto": 61,
+          "nombre": "Limonada de lavanda",
+          "cantidad": 1,
+          "precioUnitario": 13500,
+          "notas": ""
+        }
+      ],
+      "totalNeto": 54000,
+      "propina": 5400,
+      "total": 59400,
+      "estado": "En preparación"
+    },
+    {
+      "idOrden": "12346",
+      "fecha": "2024-03-16T13:45:00",
+      "mesa": 3,
+      "mesero": {
+        "id": 3,
+        "nombre": "Gabriel Franco"
+      },
+      "items": [
+        {
+          "idProducto": 21,
+          "nombre": "Risotto ai funghi",
+          "cantidad": 1,
+          "precioUnitario": 54000,
+          "notas": ""
+        },
+        {
+          "idProducto": 41,
+          "nombre": "Tiramisú",
+          "cantidad": 1,
+          "precioUnitario": 27000,
+          "notas": "Sin nueces"
+        }
+      ],
+      "totalNeto": 81000,
+      "propina": 8100,
+      "total": 89100,
+      "estado": "Servido"
+    }
+  ]
+}

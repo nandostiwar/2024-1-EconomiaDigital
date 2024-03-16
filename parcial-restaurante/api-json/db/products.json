@@ -1,0 +1,113 @@
+{
+  "menu": {
+    "Entrada": [
+      {"id":1,"nombre": "Bruschetta", "precio": 22500, "descripción": "Pan tostado con tomate, ajo y albahaca"},
+      {"id":2,"nombre": "Caprese", "precio": 27000, "descripción": "Tomate, mozzarella fresca y albahaca"},
+      {"id":3,"nombre": "Antipasto italiano", "precio": 36000, "descripción": "Selección de embutidos y quesos italianos"},
+      {"id":4,"nombre": "Carpaccio de res", "precio": 31500, "descripción": "Láminas de res, alcaparras, parmesano, aceite de oliva"},
+      {"id":5,"nombre": "Focaccia", "precio": 18000, "descripción": "Pan italiano al horno con hierbas y aceite de oliva"}
+    ],
+    "Platos Fuertes": {
+      "Pastas especiales": [
+        {"id":6,"nombre": "Pasta al nero di seppia", "precio": 54000, "descripción": "Pasta en tinta de calamar con mariscos"},
+        {"id":7,"nombre": "Tagliatelle al tartufo", "precio": 67500, "descripción": "Pasta con salsa de trufa y champiñones"},
+        {"id":8,"nombre": "Ravioli di spinaci", "precio": 58500, "descripción": "Raviolis rellenos de espinaca y ricotta"},
+        {"id":9,"nombre": "Pappardelle al cinghiale", "precio": 63000, "descripción": "Pappardelle con salsa de jabalí"},
+        {"id":10,"nombre": "Gnocchi alla sorrentina", "precio": 54000, "descripción": "Gnocchi de papa en salsa de tomate y mozzarella"}
+      ],
+      "Canelloni": [
+        {"id":11,"nombre": "Cannelloni ricotta e spinaci", "precio": 45000, "descripción": "Relleno de ricotta y espinacas, salsa de tomate"},
+        {"id":12,"nombre": "Cannelloni di carne", "precio": 49500, "descripción": "Relleno de carne y cubierto con bechamel y parmesano"},
+        {"id":13,"nombre": "Cannelloni ai funghi", "precio": 54000, "descripción": "Relleno de hongos con salsa de trufa"},
+        {"id":14,"nombre": "Cannelloni al salmone", "precio": 58500, "descripción": "Relleno de salmón, espinacas y salsa bechamel"},
+        {"id":15,"nombre": "Cannelloni di pollo", "precio": 49500, "descripción": "Relleno de pollo y ricotta, salsa de tomate"}
+      ],
+      "Pastas clasicas": [
+        {"id":16,"nombre": "Spaghetti Carbonara", "precio": 49500, "descripción": "Spaghetti con huevo, panceta, pimienta negra y queso parmesano"},
+        {"id":17,"nombre": "Lasagna tradicional", "precio": 54000, "descripción": "Capas de pasta, carne, queso y salsa de tomate"},
+        {"id":18,"nombre": "Fettuccine Alfredo", "precio": 45000, "descripción": "Fettuccine en salsa Alfredo con parmesano"},
+        {"id":19,"nombre": "Penne arrabbiata", "precio": 40500, "descripción": "Penne en salsa de tomate picante con ajo y guindilla"},
+        {"id":20,"nombre": "Spaghetti aglio e olio", "precio": 36000, "descripción": "Spaghetti con ajo, aceite de oliva y guindilla"}
+      ],
+      "Rissottos": [
+        {"id":21,"nombre": "Risotto ai funghi", "precio": 54000, "descripción": "Arroz arborio con mezcla de hongos y parmesano"},
+        {"id":22,"nombre": "Risotto alla pescatora", "precio": 67500, "descripción": "Arroz con mariscos y salsa de tomate"},
+        {"id":23,"nombre": "Risotto al nero di seppia", "precio": 63000, "descripción": "Arroz en tinta de calamar con mariscos"},
+        {"id":24,"nombre": "Risotto al tartufo", "precio": 72000, "descripción": "Arroz con salsa de trufa negra"},
+        {"id":25,"nombre": "Risotto alla milanese", "precio": 54000, "descripción": "Arroz con azafrán y parmesano"}
+      ],
+      "Al forno": [
+        {"id":26,"nombre": "Lasagna Bolognese", "precio": 54000, "descripción": "Capas de pasta con carne, bechamel y queso"},
+        {"id":27,"nombre": "Cannelloni al forno", "precio": 49500, "descripción": "Cannelloni rellenos horneados con salsa de tomate"},
+        {"id":28,"nombre": "Melanzane alla parmigiana", "precio": 49500, "descripción": "Berenjenas al horno con salsa de tomate y queso parmesano"},
+        {"id":29,"nombre": "Salmone al forno", "precio": 63000, "descripción": "Salmón al horno con hierbas y limón"},
+        {"id":30,"nombre": "Pollo al forno con patate", "precio": 54000, "descripción": "Pollo al horno con papas y romero"}
+      ],
+      "Parrilla": [
+        {"id":31,"nombre": "Bistecca Fiorentina", "precio": 81000, "descripción": "T-bone steak a la parrilla, estilo florentino"},
+        {"id":32,"nombre": "Costolette di agnello", "precio": 72000, "descripción": "Costillas de cordero a la parrilla con hierbas"},
+        {"id":33,"nombre": "Pollo alla griglia", "precio": 54000, "descripción": "Pollo a la parrilla con especias italianas"},
+        {"id":34,"nombre": "Salsicce alla griglia", "precio": 45000, "descripción": "Salchichas italianas a la parrilla"},
+        {"id":35,"nombre": "Gamberi alla griglia", "precio": 67500, "descripción": "Camarones a la parrilla con ajo y limón"}
+      ],
+      "Pizzas Artesanales": [
+        {"id":36,"nombre": "Pizza Margherita", "precio": 40500, "descripción": "Tomate, mozzarella, albahaca y aceite de oliva"},
+        {"id":37,"nombre": "Pizza Diavola", "precio": 45000, "descripción": "Tomate, mozzarella, salami picante"},
+        {"id":38,"nombre": "Pizza Quattro Formaggi", "precio": 49500, "descripción": "Cuatro quesos con base de crema"},
+        {"id":39,"nombre": "Pizza Funghi", "precio": 45000, "descripción": "Tomate, mozzarella y champiñones"},
+        {"id":40,"nombre": "Pizza Prosciutto", "precio": 49500, "descripción": "Tomate, mozzarella y jamón"}
+      ]
+    },
+    "Postre": [
+      {"id":41,"nombre": "Tiramisú", "precio": 27000, "descripción": "Clásico postre italiano con mascarpone, café y licor"},
+      {"id":42,"nombre": "Gelato", "precio": 18000, "descripción": "Helado italiano, pregunta por nuestros sabores disponibles"},
+      {"id":43,"nombre": "Cannoli", "precio": 22500, "descripción": "Tubos de masa frita rellenos de ricotta dulce y chispas de chocolate"},
+      {"id":44,"nombre": "Panna cotta", "precio": 22500, "descripción": "Postre de nata con coulis de frutos rojos"},
+      {"id":45,"nombre": "Affogato", "precio": 18000, "descripción": "Helado de vainilla con un shot de espresso caliente por encima"}
+    ],
+    "Bebidas": {
+      "SODAS ITALIANAS": [
+        {"id":46,"nombre": "Sanbittèr", "precio": 13500, "descripción": "Refresco italiano no alcohólico de hierbas"},
+        {"id":47,"nombre": "Chinotto", "precio": 13500, "descripción": "Refresco italiano de cítricos amargos"},
+        {"id":48,"nombre": "Aranciata", "precio": 13500, "descripción": "Refresco italiano de naranja"},
+        {"id":49,"nombre": "Limonata", "precio": 13500, "descripción": "Refresco italiano de limón"},
+        {"id":50,"nombre": "Gassosa", "precio": 13500, "descripción": "Refresco italiano de limón efervescente"}
+      ],
+      "JUGOS EN AGUA": [
+        {"id":51,"nombre": "Limonada", "precio": 9000, "descripción": "Jugo de limón fresco diluido en agua"},
+        {"id":52,"nombre": "Naranjada", "precio": 9000, "descripción": "Jugo de naranja fresco diluido en agua"},
+        {"id":53,"nombre": "Maracuyada", "precio": 9000, "descripción": "Jugo de maracuyá fresco diluido en agua"},
+        {"id":54,"nombre": "Frambuesada", "precio": 9000, "descripción": "Jugo de frambuesa fresco diluido en agua"},
+        {"id":55,"nombre": "Mangada", "precio": 9000, "descripción": "Jugo de mango fresco diluido en agua"}
+      ],
+      "SANGRIAS": [
+        {"id":56,"nombre": "Sangría tradicional", "precio": 18000, "descripción": "Vino tinto, brandy, frutas frescas"},
+        {"id":57,"nombre": "Sangría blanca", "precio": 18000, "descripción": "Vino blanco, licor de melocotón, frutas frescas"},
+        {"id":58,"nombre": "Sangría de cava", "precio": 22500, "descripción": "Cava, licor de naranja, frutas frescas"},
+        {"id":59,"nombre": "Sangría rosada", "precio": 18000, "descripción": "Vino rosado, licor de frambuesa, frutas frescas"},
+        {"id":60,"nombre": "Sangría sin alcohol", "precio": 13500, "descripción": "Jugos de fruta, soda, frutas frescas"}
+      ],
+      "LIMONADAS": [
+        {"id":61,"nombre": "Limonada de lavanda", "precio": 13500, "descripción": "Limonada fresca con un toque de lavanda"},
+        {"id":62,"nombre": "Limonada de menta", "precio": 13500, "descripción": "Limonada fresca con hojas de menta"},
+        {"id":63,"nombre": "Limonada de jengibre", "precio": 13500, "descripción": "Limonada fresca con jengibre"},
+        {"id":64,"nombre": "Limonada de frutos rojos", "precio": 13500, "descripción": "Limonada fresca con mezcla de frutos rojos"},
+        {"id":65,"nombre": "Limonada clásica", "precio": 9000, "descripción": "Limonada fresca al estilo tradicional"}
+      ],
+      "CERVEZAS": [
+        {"id":66,"nombre": "Peroni", "precio": 13500, "descripción": "Cerveza italiana lager"},
+        {"id":67,"nombre": "Moretti", "precio": 13500, "descripción": "Cerveza italiana tipo lager"},
+        {"id":68,"nombre": "Menabrea", "precio": 13500, "descripción": "Cerveza italiana blonde lager"},
+        {"id":69,"nombre": "Birra del Borgo", "precio": 18000, "descripción": "Cerveza artesanal italiana"},
+        {"id":70,"nombre": "Ichnusa", "precio": 13500, "descripción": "Cerveza italiana suave y ligera"}
+      ],
+      "OTRAS BEBIDAS": [
+        {"id":71,"nombre": "Agua San Pellegrino", "precio": 9000, "descripción": "Agua mineral italiana"},
+        {"id":72,"nombre": "Agua Panna", "precio": 9000, "descripción": "Agua mineral natural italiana"},
+        {"id":73,"nombre": "Café italiano", "precio": 4500, "descripción": "Expreso italiano clásico"},
+        {"id":74,"nombre": "Té italiano", "precio": 4500, "descripción": "Selección de tés italianos"},
+        {"id":75,"nombre": "Vino de la casa", "precio": 18000, "descripción": "Copa de vino tinto o blanco seleccionado"}
+      ]
+    }
+  }
+}

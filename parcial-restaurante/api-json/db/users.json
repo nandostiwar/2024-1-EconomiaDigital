@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan Perez",
+      "password": "juan1234",
+      "role": "administrador"
+    },
+    {
+      "id": 2,
+      "name": "Ana Lopez",
+      "password": "ana5678",
+      "role": "mesero"
+    },
+    {
+      "id": 3,
+      "name": "Gabriel Franco",
+      "password": "gabriel5678",
+      "role": "mesero"
+    },
+    {
+      "id": 4,
+      "name": "Carlos García",
+      "password": "carlos9012",
+      "role": "cocina"
+    }
+  ]
+}
