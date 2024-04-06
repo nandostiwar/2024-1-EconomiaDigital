@@ -1,0 +1,46 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "juan@example.com",
+      "rol": "administrador",
+      "password": "juan1"
+    },
+    {
+      "id": 2,
+      "email": "maria@example.com",
+      "rol": "mesero",
+      "password": "maria1"
+    },
+    {
+      "id": 6,
+      "email": "camilo@example.com",
+      "password": "camilo1",
+      "rol": "cocina"
+    },
+    {
+      "id": 7,
+      "email": "daniel@example.com",
+      "password": "daniel1",
+      "rol": "administrador"
+    },
+    {
+      "id": 8,
+      "email": "ana@example.com",
+      "password": "ana1",
+      "rol": "mesero"
+    },
+    {
+      "id": 9,
+      "email": "mario@example.com",
+      "password": "mario1",
+      "rol": "mesero"
+    },
+    {
+      "id": 10,
+      "email": "daniela@example.com",
+      "password": "danny30",
+      "rol": "mesero"
+    }
+  ]
+}

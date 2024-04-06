@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Bandeja Paisa",
+      "precio": 20000
+    },
+    {
+      "id": 2,
+      "nombre": "Sancocho De Gallina",
+      "precio": 10000
+    },
+    {
+      "id": 4,
+      "nombre": "Limonada",
+      "precio": "6000"
+    },
+    {
+      "id": 5,
+      "nombre": "Changua ",
+      "precio": "15000"
+    },
+    {
+      "id": 6,
+      "nombre": "salchipapa",
+      "precio": "5000"
+    },
+    {
+      "id": 7,
+      "nombre": "Filete de pollo",
+      "precio": "23000"
+    }
+  ]
+}
