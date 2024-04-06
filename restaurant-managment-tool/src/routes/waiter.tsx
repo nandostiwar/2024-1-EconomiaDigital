@@ -20,7 +20,7 @@ export const ProductContext = React.createContext();
 const WaiterRoute: React.FC<props> = () => {
   const [products, setProducts] = useState([])
   const [productsData, setProductsData] = useState<OrderProduct[]>([])
-  const [tableBody, setTableBody] = useState<TableRow[]>([])
+  /* const [tableBody, setTableBody] = useState<TableRow[]>([]) */
   const [productList, setProductList] = useState<Product[]>([])
   const [change, setChange] = useState<boolean>(false)
 
@@ -48,20 +48,20 @@ const WaiterRoute: React.FC<props> = () => {
     getProducts()
   }, [])
 
-  useEffect(() => {
-    productsData.map((product_) => {
-      const row: TableRow = {
-        values: [
-          product_.name, product_.quantity, product_.price * product_.quantity
-        ]
-      }
-      console.log(row)
-      setTableBody(
-        ...tableBody,
-        row
-      )
-    })
-  }, [productsData, change])
+  /* useEffect(() => { */
+  /*   productsData.map((product_) => { */
+  /*     const row: TableRow = { */
+  /*       values: [ */
+  /*         product_.name, product_.quantity, product_.price * product_.quantity */
+  /*       ] */
+  /*     } */
+  /*     console.log(row) */
+  /*     setTableBody( */
+  /*       ...tableBody, */
+  /*       row */
+  /*     ) */
+  /*   }) */
+  /* }, [productsData, change]) */
 
 
   /* const tableColumns: TableColumn[] = [ */
