@@ -4,7 +4,7 @@ import Button from '@components/ui/Button'
 import DropDown from '@components/ui/SelectInput'
 import SelectInputOption from '@/models/SelectInputOption'
 import { User } from '@/models/User'
-import { handleCreateUser } from '@/libs/utils/auth'
+import { handleCreateUser } from '@/libs/utils/user'
 
 interface props {
 

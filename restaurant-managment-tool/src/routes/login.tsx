@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import TextInput from '@components/ui/TextInput'
+import { useNavigate } from "react-router-dom";
+import TextInput2 from '@components/ui/TextInput2'
 import Button from '@components/ui/Button'
-import EmailIcon from '@icons/email'
-import PasswordIcon from '@icons/password'
 import BackgroundImage from '@images/background_1.jpg'
 import { AuthData } from '@/models/AuthData'
+import { handleAuthenticate } from '@/libs/utils/auth'
 
 const LoginRoute: React.FC = () => {
+  const navigate = useNavigate()
   const defaultData = { name: "", password: "" }
   const [authData, setAuthData] = useState<AuthData>(defaultData)
 
@@ -22,9 +23,14 @@ const LoginRoute: React.FC = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
 
-    handleCreateProduct(productData).then(() => {
-      setProductData(defaultData)
-    })
+    handleAuthenticate(authData)
+      .then(() => {
+        setAuthData(defaultData)
+        navigate('/admin')
+      })
+      .catch(() => {
+        console.log("nothing")
+      })
   }
 
   return (
@@ -37,14 +43,17 @@ const LoginRoute: React.FC = () => {
           <h2 className='text-red-600 text-2xl font-semibold italic'>Saborearte</h2>
         </div>
         <form onSubmit={handleSubmit} className='w-full flex flex-col items-center justify-center gap-8'>
-          <TextInput
+          <TextInput2
             name={'name'}
+            value={authData.name}
             onChange={handleInputChange}
-            label={<EmailIcon />}
+            label={"Nombre"}
           />
-          <TextInput
-            name={''}
-            label={<PasswordIcon />}
+          <TextInput2
+            name={'password'}
+            value={authData.password}
+            onChange={handleInputChange}
+            label={"Contraseña"}
           />
           <Button>Ingresar</Button>
         </form>

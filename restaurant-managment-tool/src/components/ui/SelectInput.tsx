@@ -15,7 +15,6 @@ const SelectInput: React.FC<props> = ({ label, default_option, options, ...props
       </div>
       <select {...props} className="select select-bordered">
         <option
-          disabled
           selected
         >
           {default_option ?? "Seleciona una"}

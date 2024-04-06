@@ -1,10 +1,10 @@
 import { AuthData } from "@/models/AuthData";
-import { USERS_ENDPOINT } from "@libs/services/http";
+import { AUTH_ENDPOINT } from "@libs/services/http";
 import swal from "sweetalert";
 
-export const handleCreateUser = async (userData: AuthData) => {
+export const handleAuthenticate = async (userData: AuthData) => {
   try {
-    const response = await fetch(USERS_ENDPOINT, {
+    const response = await fetch(AUTH_ENDPOINT, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -16,10 +16,10 @@ export const handleCreateUser = async (userData: AuthData) => {
       swal({
         icon: 'success',
         title: 'Success!',
-        text: 'Se creó el usuario exitosamente!'
+        text: 'Se logueo exitosamente!'
       });
     } else {
-      throw new Error('Fallo al crear el usuario');
+      throw new Error('Fallo al loguearse');
     }
   } catch (error) {
     swal({

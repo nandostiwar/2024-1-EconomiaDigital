@@ -151,3 +151,5 @@
 {"level":"info","message":"Web server running on port 8080"}
 {"level":"info","message":"Web server running on port 8080"}
 {"level":"info","message":"Conection to DB was succesfull"}
+{"level":"info","message":"Web server running on port 8080"}
+{"level":"info","message":"Conection to DB was succesfull"}
