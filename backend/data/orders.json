@@ -1,0 +1,63 @@
+{
+    "ordenes": [
+      {
+        "idOrden": "54321",
+        "fecha": "2024-04-06T18:30:45",
+        "mesa": 7,
+        "mesero": {
+          "id": 1,
+          "nombre": "Juan Pérez"
+        },
+        "items": [
+          {
+            "idProducto": 1,
+            "nombre": "Hamburguesa",
+            "cantidad": 1,
+            "precioUnitario": 10.99,
+            "notas": ""
+          },
+          {
+            "idProducto": 2,
+            "nombre": "Pizza",
+            "cantidad": 1,
+            "precioUnitario": 12.99,
+            "notas": ""
+          }
+        ],
+        "totalNeto": 23.98,
+        "propina": 0,
+        "total": 23.98,
+        "estado": "En preparación"
+      },
+      {
+        "idOrden": "54322",
+        "fecha": "2024-04-06T19:15:00",
+        "mesa": 4,
+        "mesero": {
+          "id": 2,
+          "nombre": "María Rodríguez"
+        },
+        "items": [
+          {
+            "idProducto": 3,
+            "nombre": "Ensalada",
+            "cantidad": 1,
+            "precioUnitario": 8.99,
+            "notas": "Sin aderezos"
+          },
+          {
+            "idProducto": 1,
+            "nombre": "Hamburguesa",
+            "cantidad": 2,
+            "precioUnitario": 10.99,
+            "notas": "Sin cebolla"
+          }
+        ],
+        "totalNeto": 30.97,
+        "propina": 0,
+        "total": 30.97,
+        "estado": "En preparación"
+      }
+    ]
+  }
+  

@@ -1,0 +1,17 @@
+
+.kitchen-header {
+    background-color: #66cc99;
+    color: #fff;
+    padding: 20px;
+}
+
+.kitchen-sidebar {
+    width: 220px;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+.kitchen-content {
+    flex-grow: 1;
+    padding: 20px;
+}
