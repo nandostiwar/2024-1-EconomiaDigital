@@ -1,0 +1,102 @@
+body {
+    background-image: url('../styles/avion.avif');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    font-family: Arial, sans-serif;
+}
+
+
+.flight-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #dfb7f7;
+}
+
+/* Estilos para los campos de entrada y el botón en el formulario */
+.flight-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.flight-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.flight-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la lista de vuelos */
+.flight-list {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+
+.flight-list h2 {
+    margin-bottom: 10px;
+}
+
+.flight-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flight-list li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para la lista de vuelos */
+.flight-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #a6b5f5;
+}
+
+.flight-list h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para la tabla de vuelos */
+.flight-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.flight-list th, .flight-list td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.flight-list th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.flight-list tbody tr:nth-child(even) {
+    background-color: #6777ce;
+}
+
+.flight-list tbody tr:hover {
+    background-color: #344fe7;
+}
