@@ -1,0 +1,29 @@
+###
+POST http://localhost:3001/createUser HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Russell Eagle",
+    "age": 25,
+    "username":"Reagle"
+}
+
+
+###
+GET http://localhost:3001/getUsers HTTP/1.1
+
+# ###
+# GET http://localhost:9000/api/users/662ecc9f2fc5952489e6a09d HTTP/1.1
+
+###
+PUT   http://localhost:9000/api/users/662ed0a02fc5952489e6a09f HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Dimitri Rustov",
+    "age": 66,
+    "email":"dimitri_rustov@hotmail.com"
+}
+
+###
+DELETE    http://localhost:9000/api/users/662ecc9f2fc5952489e6a09d HTTP/1.1
