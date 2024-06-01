@@ -1,0 +1,185 @@
+{
+  "pedidos": [
+    {
+      "id": 3,
+      "numero_mesa": "1",
+      "productos": [
+        {
+          "id": 5,
+          "nombre": "Changua ",
+          "precio": "15000"
+        }
+      ],
+      "total_venta": 15000,
+      "estado": "listo"
+    },
+    {
+      "id": 4,
+      "numero_mesa": "2",
+      "productos": [
+        {
+          "id": 2,
+          "nombre": "Sancocho De Gallina",
+          "precio": 10000
+        },
+        {
+          "id": 5,
+          "nombre": "Changua ",
+          "precio": "15000"
+        }
+      ],
+      "total_venta": 25000,
+      "estado": "listo"
+    },
+    {
+      "id": 5,
+      "numero_mesa": "3",
+      "productos": [
+        {
+          "id": 2,
+          "nombre": "Sancocho De Gallina",
+          "precio": 10000
+        },
+        {
+          "id": 1,
+          "nombre": "Bandeja Paisa",
+          "precio": 20000
+        }
+      ],
+      "total_venta": 30000,
+      "estado": "listo"
+    },
+    {
+      "id": 6,
+      "numero_mesa": "4",
+      "productos": [
+        {
+          "id": 5,
+          "nombre": "Changua ",
+          "precio": "15000"
+        }
+      ],
+      "total_venta": 15000,
+      "estado": "listo"
+    },
+    {
+      "id": 7,
+      "numero_mesa": "5",
+      "productos": [
+        {
+          "id": 5,
+          "nombre": "Changua ",
+          "precio": "15000"
+        },
+        {
+          "id": 1,
+          "nombre": "Bandeja Paisa",
+          "precio": 20000
+        }
+      ],
+      "total_venta": 35000,
+      "estado": "listo"
+    },
+    {
+      "id": 8,
+      "numero_mesa": "6",
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Bandeja Paisa",
+          "precio": 20000
+        },
+        {
+          "id": 1,
+          "nombre": "Bandeja Paisa",
+          "precio": 20000
+        },
+        {
+          "id": 4,
+          "nombre": "Limonada",
+          "precio": "6000"
+        },
+        {
+          "id": 5,
+          "nombre": "Changua ",
+          "precio": "15000"
+        }
+      ],
+      "total_venta": 61000,
+      "estado": "listo"
+    },
+    {
+      "id": 9,
+      "numero_mesa": "7",
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Bandeja Paisa",
+          "precio": 20000
+        },
+        {
+          "id": 1,
+          "nombre": "Bandeja Paisa",
+          "precio": 20000
+        },
+        {
+          "id": 4,
+          "nombre": "Limonada",
+          "precio": "6000"
+        }
+      ],
+      "total_venta": 46000,
+      "estado": "listo"
+    },
+    {
+      "id": 10,
+      "numero_mesa": "8",
+      "productos": [
+        {
+          "id": 7,
+          "nombre": "Filete de pollo",
+          "precio": "23000"
+        },
+        {
+          "id": 4,
+          "nombre": "Limonada",
+          "precio": "6000"
+        },
+        {
+          "id": 6,
+          "nombre": "salchipapa",
+          "precio": "5000"
+        }
+      ],
+      "total_venta": 34000,
+      "estado": "listo"
+    },
+    {
+      "id": 11,
+      "numero_mesa": "1",
+      "productos": [
+        {
+          "_id": "665246d55d870799f16b9857",
+          "id": 5,
+          "nombre": "Changua ",
+          "precio": 15000
+        },
+        {
+          "_id": "66529fa0d627f662d86417ee",
+          "id": 8,
+          "nombre": "cafe con leche",
+          "precio": 7000,
+          "__v": 0
+        },
+        {
+          "_id": "665246d55d870799f16b9854",
+          "id": 4,
+          "nombre": "Limonada",
+          "precio": 6000
+        }
+      ],
+      "total_venta": 28000,
+      "estado": "procesando"
+    }
+  ]
+}
