@@ -1,6 +1,6 @@
-{  
- "ventas": [
-  {
+{
+  "pedidos": [
+    {
       "id": 3,
       "numero_mesa": "1",
       "productos": [
@@ -11,9 +11,7 @@
         }
       ],
       "total_venta": 15000,
-      "estado": "listo",
-      "fecha_hora": "2024-04-03T06:07:22.735Z",
-      "email_mesero": "maria@example.com"
+      "estado": "listo"
     },
     {
       "id": 4,
@@ -31,9 +29,7 @@
         }
       ],
       "total_venta": 25000,
-      "estado": "listo",
-      "fecha_hora": "2024-04-04T06:19:16.414Z",
-      "email_mesero": "maria@example.com"
+      "estado": "listo"
     },
     {
       "id": 5,
@@ -51,9 +47,7 @@
         }
       ],
       "total_venta": 30000,
-      "estado": "listo",
-      "fecha_hora": "2024-04-04T06:23:39.013Z",
-      "email_mesero": "ana@example.com"
+      "estado": "listo"
     },
     {
       "id": 6,
@@ -66,9 +60,7 @@
         }
       ],
       "total_venta": 15000,
-      "estado": "listo",
-      "fecha_hora": "2024-04-04T19:34:51.495Z",
-      "email_mesero": "maria@example.com"
+      "estado": "listo"
     },
     {
       "id": 7,
@@ -86,9 +78,7 @@
         }
       ],
       "total_venta": 35000,
-      "estado": "listo",
-      "fecha_hora": "2024-04-05T04:00:41.985Z",
-      "email_mesero": "ana@example.com"
+      "estado": "listo"
     },
     {
       "id": 8,
@@ -116,9 +106,7 @@
         }
       ],
       "total_venta": 61000,
-      "estado": "listo",
-      "fecha_hora": "2024-04-05T04:28:55.274Z",
-      "email_mesero": "ana@example.com"
+      "estado": "listo"
     },
     {
       "id": 9,
@@ -141,9 +129,7 @@
         }
       ],
       "total_venta": 46000,
-      "estado": "listo",
-      "fecha_hora": "2024-04-05T04:29:11.389Z",
-      "email_mesero": "ana@example.com"
+      "estado": "listo"
     },
     {
       "id": 10,
@@ -166,9 +152,7 @@
         }
       ],
       "total_venta": 34000,
-      "estado": "listo",
-      "fecha_hora": "2024-04-06T18:20:58.514Z",
-      "email_mesero": "daniela@example.com"
+      "estado": "listo"
     }
   ]
 }

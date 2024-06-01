@@ -1,6 +1,6 @@
 const fs = require('fs/promises');
 const path = require('path');
-
+// const pedidosData = require('../data/pedidosData');
 const PEDIDOS_FILE_PATH = path.join(__dirname, '../../db/pedidos.json');
 const VENTAS_FILE_PATH = path.join(__dirname, '../../db/ventas.json');
 
